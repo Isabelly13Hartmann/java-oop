@@ -15,20 +15,22 @@ public class Barco extends Viatura {
         this.temPiscina = temPiscina;
     }
 
-    // @Override serve para indicar que estamos a sobrescrever um método da classe "pai "(Viatura)
+    // @Override serve para indicar que estamos a sobrescrever um método da classe
+    // "pai "(Viatura)
     @Override
+
     // Método mostrarInfo para incluir a informação sobre a piscina
     public void mostrarInfo() {
-        System.out.println("Vou mostrar as informações do Barco:");
-        System.out.println("Tipo de Carros:" + getTipoCarro());
-        System.out.println("Número de Rodas:" + getNumRodas());
-        System.out.println("Velocidade Máxima:" + getVelMaxima() + " km/h");
-        System.out.println("Matrícula:" + getMatricula());
+        System.out.println("Vou mostrar as informações do Barco:\n");
+        System.out.println("-  Tipo de Barco?" + getTipoCarro());
+        System.out.println("-  Número de Rodas:" + getNumRodas());
+        System.out.println("-  Velocidade Máxima:" + getVelMaxima() + " km/h");
+        System.out.println("-  Matrícula:" + getMatricula());
 
         if (temPiscina) {
-            System.out.println("Tem piscina: Sim");
+            System.out.println("- Tem piscina: Sim :)");
         } else {
-            System.out.println("Não tem piscina");
+            System.out.println("-  Não tem piscina: :(\n");
         }
     }
 

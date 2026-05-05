@@ -1,14 +1,15 @@
 public class App {
     public static void main(String[] args) throws Exception {
 
-        Barco carro = new Barco();
+        Cruzeiro carro = new Cruzeiro();
+        carro.mostraInfoCruzeiro();
 
-        carro.setNumRodas(4);
-        carro.setTipoCarro("Carro Desportivo");
-        carro.setVelMaxima(120);
-        carro.setMatricula("AB-12-CD");
+         // Configurações do Cruzeiro
+        /*carro.setNumQuartos(0);
+        carro.setNumPisos(0);
+        carro.setNomeBarco(null);*/
 
-        carro.mostrarInfo();
+        // Informações do Cruzeiro
 
     }
 }

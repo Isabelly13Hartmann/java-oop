@@ -31,7 +31,6 @@ public class Viatura {
     }
 
     public void setNumRodas(int numRodas) {
-        this.numRodas = numRodas;
     }
 
     public int getVelMaxima() {
